@@ -1,0 +1,95 @@
+# ============================================================================
+# AI tooling artifacts — never committed
+# ============================================================================
+# Claude
+CLAUDE.md
+.claude/
+.claude.json
+**/CLAUDE.md
+**/.claude/
+
+# Cursor
+.cursor/
+.cursorrules
+.cursorignore
+
+# Aider
+.aider*
+.aider.chat.history.md
+.aider.input.history
+.aider.tags.cache.v3/
+
+# Continue.dev
+.continue/
+.continuerc*
+
+# Windsurf / Codeium
+.windsurf/
+.codeium/
+
+# GitHub Copilot config (when committed by accident)
+.github/copilot-instructions.md
+
+# Agent / generic AI rules files
+AGENTS.md
+.agents/
+.ai/
+ai-instructions*
+*.ai.md
+*-ai.md
+ai-*.md
+
+# AI-generated scratch / planning artifacts
+docs/ai/
+docs/agents/
+docs/PLAN.md
+docs/SKILLS.md
+docs/SEO.md
+docs/SEO_LAUNCH_CHECKLIST.md
+docs/BACKDATING.md
+docs/VERIFICATION.md
+docs/MANUAL_VERIFICATION.md
+docs/README_TEMPLATE.md
+.scratch/
+.tmp-ai/
+
+# ============================================================================
+# OS / editor
+# ============================================================================
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+*.iml
+
+# ============================================================================
+# Go build outputs
+# ============================================================================
+bin/
+dist/
+*.test
+*.out
+cover.out
+coverage.html
+*.prof
+
+# ============================================================================
+# Env / secrets — never committed
+# ============================================================================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+
+# ============================================================================
+# Local-only state
+# ============================================================================
+.local/
+tmp/
+*.log
+node_modules/
